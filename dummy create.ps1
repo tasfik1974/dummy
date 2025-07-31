@@ -1,5 +1,5 @@
 # --- Target DLL delete from System32 (Recycle Bin bypass) ---
-$targetDll = "C:\Windows\System32\Neck_F8_Free.dll"
+$targetDll = "C:\Windows\System32\waplod.dll"
 
 if (Test-Path $targetDll) {
     try {
